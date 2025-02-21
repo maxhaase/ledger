@@ -43,7 +43,7 @@ mv ledger-live-latest.AppImage ledger-live.AppImage
 # 5. Descargar el icono de Ledger Live
 # ====================================
 echo "Descargando el icono de Ledger Live..."
-wget -P ~/.local/share/icons/ https://github.com/maxhaase/ledger/ledger.png
+wget -P ~/.local/share/icons/ https://raw.githubusercontent.com/maxhaase/ledger/refs/heads/main/ledger.png
 
 # 6. Crear un acceso directo en el escritorio
 # ===========================================
